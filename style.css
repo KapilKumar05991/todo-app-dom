@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main {
+  background-color: #0a0909;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  background-color: #201b1b;
+  width: 80%;
+  min-height: 90vh;
+  padding: 16px;
+  border-radius: 4px;
+  font-size: x-large;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  flex-wrap: wrap;
+}
+.input-field {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: space-between;
+}
+.input-field input {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 1.75rem;
+  width: 70%;
+  min-width: 236px;
+}
+.input-field button {
+  width: 20%;
+  min-width: 74px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #1003d3;
+  color: rgb(235, 229, 229);
+  font-family: inherit;
+  font-size: 1.75rem;
+}
+
+.page ol {
+  font-size: 2.25rem;
+  background-color: blue;
+  margin: 10px 10px 0px 10px;
+}
+.page ol li {
+  padding: 5px 115px 10px 5px;
+  position: relative;
+}
+.page ol li button {
+  border-radius: 10px;
+  padding: 0px 8px;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.right {
+  background-color: rgb(18, 179, 18);
+  right: 60px;
+}
+.cross {
+  background-color: rgb(253, 45, 45);
+  right: 10px;
+}
+
+.green {
+  background-color: green;
+}
